@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/**/*.js": { "includeFiles": "data/**" }
+  },
+  "rewrites": [{ "source": "/", "destination": "/api" }]
+}
